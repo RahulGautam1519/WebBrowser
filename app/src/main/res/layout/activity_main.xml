@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abastract"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/search_url_home"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/search_button_home"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginBottom="1dp"
+        android:autofillHints=""
+        android:background="@android:color/holo_orange_light"
+        android:ems="10"
+        android:hint="Search or Enter Url"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/search_button_home"
+        android:layout_width="94dp"
+        android:layout_height="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="0dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Search" />
+
+    <Button
+        android:id="@+id/facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="46dp"
+        android:layout_toStartOf="@+id/youtube"
+        android:background="@color/colorAccent"
+        android:text="facebook"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/youtube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="235dp"
+        android:layout_marginEnd="162dp"
+        android:background="@android:color/holo_green_light"
+        android:text="youtube"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instagram"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="22dp"
+        android:layout_toEndOf="@+id/snapchat"
+        android:background="@android:color/holo_red_dark"
+        android:text="google"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/yahoo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/facebook"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="37dp"
+        android:layout_toStartOf="@+id/snapchat"
+        android:background="@android:color/holo_orange_light"
+        android:text="yahoo"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/snapchat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/youtube"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="snapchat"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/instagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="235dp"
+        android:layout_marginEnd="18dp"
+        android:background="@android:color/holo_purple"
+        android:text="instagram"
+        android:textSize="18sp" />
+</RelativeLayout>
